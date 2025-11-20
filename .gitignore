@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+ai/auto_training.log
+device/tds/sensor_log.txt
+device/tds/tds_log.txt
+
+# Model files (optional - uncomment if you don't want to commit models)
+# *.pkl
+# ai/*.pkl
+
+# CSV data files
+*.csv
+ai/processed_*.csv
+
+# Database credentials (if any)
+db.php
+config/database.php
+
